@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="cal">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+            <div class="buttons">
+                <button class="button" onclick="clear_screen()">clr</button>
+                <div class="row">
+                    <button class="button" onclick="button_click(7)">7</button>
+                    <button class="button" onclick="button_click(8)">8</button>
+                    <button class="button" onclick="button_click(9)">9</button>
+                    <button class="button" onclick="button_click('/')">/</button>
+
+                </div>
+                <div class="row">
+                    <button class="button" onclick="button_click(4)">4</button>
+                    <button class="button" onclick="button_click(5)">5</button>
+                    <button class="button" onclick="button_click(6)">6</button>
+                    <button class="button" onclick="button_click('*')">x</button>
+                </div>
+                <div class="row">
+                    <button class="button" onclick="button_click(1)">1</button>
+                    <button class="button" onclick="button_click(2)">2</button>
+                    <button class="button" onclick="button_click(3)">3</button>
+                    <button class="button" onclick="button_click('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="button" onclick="button_click('.')">.</button>
+                    <button class="button" onclick="equalClick()">=</button>
+                    <button class="button" onclick="button_click(0)">0</button>
+                    <button class="button" onclick="button_click('+')">+</button>
+                </div>
+                <div class="cal_test">
+                    <h2>calculator</h2>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

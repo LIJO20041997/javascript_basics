@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js_basics</title>
+</head>
+<body>
+    <button onclick="show()">click me</button>
+    <script>
+        function show(){
+            display()
+            console.log("BUTTON CLICKED")
+            var a=1
+            var b=2
+            var sum =a+b
+            console.log("sum="+sum)
+
+            var c=4
+            var c=6
+            console.log(c)
+            let x=5
+             x=7
+             console.log(x)
+
+            const e=11
+            
+            if(e%2==0){
+                console.log("Number is even")
+            }else{
+                console.log("Number is odd")
+            }
+            
+            for (var i=0; i<10;i++)
+            {
+                console.log(i)
+            }
+        
+            var arr = ["apple", "orange", "mango",34]
+            console.log(arr)
+            console.log(arr[2])
+           
+            var person =[{
+                name:["lijo","reshma"],
+                age:[27,26],
+                place:"kollam"
+            },
+            { 
+                name:"Sijo",
+                age:24,
+                place:"Mayyanad"
+
+            }]
+
+            console.log(person[1])
+            console.log(person[0].name[1])
+            console.log(person[0].age[1])
+            console.log(person[0].name)
+
+
+        }
+        function display(){
+            console.log("This is just to test a new function")
+        }
+    </script>
+</body>
+</html>

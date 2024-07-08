@@ -1,0 +1,26 @@
+.cal{
+    width: 400px;
+    height:600px;
+    background-color: rgb(26, 160, 160);
+    margin-left: 400px;
+}
+
+#screen{
+    width: 300px;
+    height: 50px;
+    margin-left: 45px;
+    margin-top:15px;
+    pointer-events: none;
+    background-color: rgb(174, 210, 210);
+}
+
+
+.button {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgb(153, 210, 192);
+    cursor: pointer;
+}
+

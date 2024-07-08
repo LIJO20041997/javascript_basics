@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample</title>
+</head>
+<style>
+    #screen{
+        width: 300px;
+        height: 300px;
+        border: solid 1px;
+    }
+</style>
+<body>
+    <div id="screen">
+
+    </div>
+
+    <button onclick="colorchg('red')">red</button>
+    <button onclick="colorchg('green')">green</button>
+    <button onclick="colorchg('blue')">blue</button>
+    <button onclick="colorchg('yellow')">yellow</button>
+
+    
+    <script>
+        function colorchg(color)
+        {
+            document.getElementById("screen").style.background=color
+
+        }
+
+    </script>
+
+</body>
+</html>
